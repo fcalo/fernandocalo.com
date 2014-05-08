@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="">
+    <meta name="keywords" content="desarrollador web, programador, freelance, php, python, mysql, mongodb, prestashop, wordpress, html5, css3, jquery, bootstrap">
     <meta name="author" content="">
 
     <title>Fernando Calo - Desarrollador web</title>
@@ -23,6 +24,16 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-50736950-1', 'fernandocalo.com');
+	  ga('send', 'pageview');
+
+	</script>
 
 </head>
 
@@ -96,7 +107,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/torrents.png" class="img-responsive" alt="" />
+                        <img src="img/portfolio/torrents_t.png" class="img-responsive" alt="" />
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -106,7 +117,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/foofind.png" class="img-responsive" alt="" />
+                        <img src="img/portfolio/foofind_t.png" class="img-responsive" alt="" />
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -116,7 +127,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/fanoutics.png" class="img-responsive" alt="" />
+                        <img src="img/portfolio/fanoutics_t.png" class="img-responsive" alt="" />
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -126,7 +137,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/kiputeca.png" class="img-responsive" alt="" />
+                        <img src="img/portfolio/kiputeca_t.png" class="img-responsive" alt="" />
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -136,7 +147,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/diegomarin.png" class="img-responsive" alt="" />
+                        <img src="img/portfolio/diegomarin_t.png" class="img-responsive" alt="" />
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -146,7 +157,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/tiendadelebook.png" class="img-responsive" alt="" />
+                        <img src="img/portfolio/tiendadelebook_t.png" class="img-responsive" alt="" />
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -156,7 +167,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cardiologiamerida.png" class="img-responsive" alt="" />
+                        <img src="img/portfolio/cardiologiamerida_t.png" class="img-responsive" alt="" />
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -166,7 +177,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cotonetbois.png" class="img-responsive" alt="" />
+                        <img src="img/portfolio/cotonetbois_t.png" class="img-responsive" alt="" />
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -176,7 +187,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/fragata.png" class="img-responsive" alt="" />
+                        <img src="img/portfolio/fragata_t.png" class="img-responsive" alt="" />
                     </a>
                 </div>
             </div>
@@ -273,31 +284,32 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form">
+                    <form>
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="name">Nombre</label>
-                                <input class="form-control" type="text" name="name" placeholder="Nombre">
+                                <input class="form-control" type="text" id="name" name="name" placeholder="Nombre">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="email">Email</label>
-                                <input class="form-control" type="email" name="email" placeholder="Email">
+                                <input class="form-control" type="email" id="email" name="email" placeholder="Email">
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
                                 <label for="message">Mensaje</label>
-                                <textarea placeholder="Mensaje" class="form-control" rows="5"></textarea>
+                                <textarea placeholder="Mensaje" id="msg" class="form-control" rows="5"></textarea>
                             </div>
                         </div>
                         <br>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-lg btn-success">Enviar</button>
+                                <button id="send_contact" type="button" class="btn btn-lg btn-success">Enviar</button>
                             </div>
                         </div>
+                        <div id="alert"></div>
                     </form>
                 </div>
             </div>
@@ -353,17 +365,29 @@
                             <h2>Torrents.com</h2>
                             <hr class="star-primary">
                             <a href="http://torrents.com"><img src="img/portfolio/torrents.png" class="img-responsive img-centered" alt="torrents"></a>
-                            <p></p>
-<!--
+                            <p>Buscador de ficheros de tipo torrent. Responsable del área de contenidos apoyando al área de producto web. En fase inicial puesta en marcha de la infraestructura de sistemas del proyecto, marcando la arquitectura a seguir</p>
                             <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://startbootstrap.com">Start Bootstrap</a></strong>
+                                <li>Fecha: <strong><a href="http://torrents.com">2013 - 2014</a></strong>
                                 </li>
-                                <li>Date: <strong><a href="http://startbootstrap.com">April 2014</a></strong>
-                                </li>
-                                <li>Service: <strong><a href="http://startbootstrap.com">Web Development</a></strong>
+                                <li>Funciones: <strong><a href="http://torrents.com">Backend Developer,  Web Developer, SysAdmin</a></strong>
                                 </li>
                             </ul>
--->
+                            <div class="tags-detail">
+								<span class="label label-primary">python</span>
+								<span class="label label-primary">mongoDB</span>
+								<span class="label label-primary">scrapy</span>
+								<span class="label label-primary">seo</span>
+								<span class="label label-primary">flask</span>
+								<span class="label label-primary">jquery</span>
+								<span class="label label-primary">sphinx</span>
+								<span class="label label-primary">ubuntu</span>
+								<span class="label label-primary">nginx</span>
+								<span class="label label-primary">varnish</span>
+								<span class="label label-primary">uwsgi</span>
+								<span class="label label-primary">memcached</span>
+								<span class="label label-primary">redis</span>
+								<span class="label label-primary">sentry</span>
+							</div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -386,7 +410,24 @@
                             <h2>Foofind.com</h2>
                             <hr class="star-primary">
                             <a href="http://foofind.com"><img src="img/portfolio/foofind.png" class="img-responsive img-centered" alt="foofind"></a>
-                            <p></p>
+                            <p>Buscador de ficheros. Responsable del área de contenidos.</p>
+                            <ul class="list-inline item-details">
+                                <li>Fecha: <strong><a href="http://foofind.com">2010 - 2014</a></strong>
+                                </li>
+                                <li>Funciones: <strong><a href="http://foofind.com">Backend Developer,  SysAdmin</a></strong>
+                                </li>
+                            </ul>
+                            <div class="tags-detail">
+								<span class="label label-primary">python</span>
+								<span class="label label-primary">mongoDB</span>
+								<span class="label label-primary">php</span>
+								<span class="label label-primary">zend framework</span>
+								<span class="label label-primary">scrapy</span>
+								<span class="label label-primary">API(json, xml)</span>
+								<span class="label label-primary">mySql</span>
+								<span class="label label-primary">sphinx</span>
+								<span class="label label-primary">redis</span>
+							</div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -409,7 +450,24 @@
                             <h2>Fanoutics.com</h2>
                             <hr class="star-primary">
                             <a href="http://fanoutics.com"><img src="img/portfolio/fanoutics.png" class="img-responsive img-centered" alt="fanoutics"></a>
-                            <p></p>
+                            <p>Outlet del motor. Responsable del área de contenidos.</p>
+                            <ul class="list-inline item-details">
+                                <li>Fecha: <strong><a href="http://fanoutics.com">2010</a></strong>
+                                </li>
+                                <li>Funciones: <strong><a href="http://fanoutics.com">Web Developer</a></strong>
+                                </li>
+                            </ul>
+                            <div class="tags-detail">
+								<span class="label label-primary">php</span>
+								<span class="label label-primary">mySql</span>
+								<span class="label label-primary">html</span>
+								<span class="label label-primary">css3</span>
+								<span class="label label-primary">jQuery</span>
+								<span class="label label-primary">mvc</span>
+								<span class="label label-primary">API PayPal</span>
+								<span class="label label-primary">Pasarela de pago</span>
+								<span class="label label-primary">gimp</span>
+							</div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -432,7 +490,21 @@
                             <h2>Kiputeca</h2>
                             <hr class="star-primary">
                             <a href="http://kiputeca.com"><img src="img/portfolio/kiputeca.png" class="img-responsive img-centered" alt="kiputeca"></a>
-                            <p></p>
+                            <p>Librería online. Encargado de conectar con el sistema de <a href="http://libranda.com">Libranda</a> controlando el catalogo y las ventas. Pasarela de pago con el sistema <a href="http://visanet.com.pe">VisaNet Perú</a></p>
+                            <ul class="list-inline item-details">
+                                <li>Fecha: <strong><a href="http://kiputeca.com">2014</a></strong>
+                                </li>
+                                <li>Funciones: <strong><a href="http://kiputeca.com">Web Developer</a></strong>
+                                </li>
+                            </ul>
+                            <div class="tags-detail">
+								<span class="label label-primary">prestashop</span>
+								<span class="label label-primary">php</span>
+								<span class="label label-primary">mySql</span>
+								<span class="label label-primary">soap</span>
+								<span class="label label-primary">xml</span>
+								<span class="label label-primary">Pasarela de pago</span>
+							</div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -455,7 +527,23 @@
                             <h2>Diegomarin.net</h2>
                             <hr class="star-primary">
                             <a href="http://diegomarin.net"><img src="img/portfolio/diegomarin.png" class="img-responsive img-centered" alt="diego marin"></a>
-                            <p></p>
+                            <p>Librería online. Encargado de conectar con el sistema de <a href="http://libranda.com">Libranda</a>, <a href="http://publidisa.com">Publidisa</a> y <a href="http://digitalbooks.pro">DigitalBooks</a> controlando el catalogo y las ventas. Módulo relación productos.</p>
+                            <ul class="list-inline item-details">
+                                <li>Fecha: <strong><a href="http://kiputeca.com">2014</a></strong>
+                                </li>
+                                <li>Funciones: <strong><a href="http://kiputeca.com">Web Developer</a></strong>
+                                </li>
+                            </ul>
+                            <div class="tags-detail">
+								<span class="label label-primary">prestashop</span>
+								<span class="label label-primary">php</span>
+								<span class="label label-primary">mySql</span>
+								<span class="label label-primary">jQuery</span>
+								<span class="label label-primary">html</span>
+								<span class="label label-primary">css3</span>
+								<span class="label label-primary">soap</span>
+								<span class="label label-primary">xml</span>
+							</div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -478,7 +566,25 @@
                             <h2>Tiendadelebook.com</h2>
                             <hr class="star-primary">
                             <a href="http://tiendadelebook.com"><img src="img/portfolio/tiendadelebook.png" class="img-responsive img-centered" alt="tienda del ebook"></a>
-                            <p></p>
+                            <p>Librería online. Encargado de conectar con el sistema de <a href="http://libranda.com">Libranda</a> y <a href="http://digitalbooks.pro">DigitalBooks</a> controlando el catalogo y las ventas. Módulos a medida. Migración servidor. Mantenimiento servidor.</p>
+                            <ul class="list-inline item-details">
+                                <li>Fecha: <strong><a href="http://tiendadelebook.com">2012 - *</a></strong>
+                                </li>
+                                <li>Funciones: <strong><a href="http://tiendadelebook.com">Web Developer, SysAdmin</a></strong>
+                                </li>
+                            </ul>
+                            <div class="tags-detail">
+								<span class="label label-primary">prestashop</span>
+								<span class="label label-primary">php</span>
+								<span class="label label-primary">mySql</span>
+								<span class="label label-primary">jQuery</span>
+								<span class="label label-primary">html</span>
+								<span class="label label-primary">css3</span>
+								<span class="label label-primary">soap</span>
+								<span class="label label-primary">xml</span>
+								<span class="label label-primary">linux</span>
+								<span class="label label-primary">nginx</span>
+							</div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -501,7 +607,21 @@
                             <h2>Cardiologiamerida.com</h2>
                             <hr class="star-primary">
                             <a href="http://cardiologiamerida.com"><img src="img/portfolio/cardiologiamerida.png" class="img-responsive img-centered" alt="cardiologia merida"></a>
-                            <p></p>
+                            <p>Web institucional. Maquetación completa.</p>
+                            <ul class="list-inline item-details">
+                                <li>Fecha: <strong><a href="http://cardiologiamerida.com">2010</a></strong>
+                                </li>
+                                <li>Funciones: <strong><a href="http://cardiologiamerida.com">Web Developer</a></strong>
+                                </li>
+                            </ul>
+                            <div class="tags-detail">
+								<span class="label label-primary">joomla</span>
+								<span class="label label-primary">php</span>
+								<span class="label label-primary">jQuery</span>
+								<span class="label label-primary">html</span>
+								<span class="label label-primary">css3</span>
+								<span class="label label-primary">gimp</span>
+							</div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -524,7 +644,22 @@
                             <h2>Cotonetboistienda.com</h2>
                             <hr class="star-primary">
                             <a href="http://www.cotonetboistienda.com/"><img src="img/portfolio/cotonetbois.png" class="img-responsive img-centered" alt="coton et bois"></a>
-                            <p></p>
+                            <p>Tienda online. Maquetación completa.</p>
+                            <ul class="list-inline item-details">
+                                <li>Fecha: <strong><a href="http://cotonetboistienda.com">2010</a></strong>
+                                </li>
+                                <li>Funciones: <strong><a href="http://cotonetboistienda.com">Web Developer</a></strong>
+                                </li>
+                            </ul>
+                            <div class="tags-detail">
+								<span class="label label-primary">joomla</span>
+								<span class="label label-primary">virtuemart</span>
+								<span class="label label-primary">php</span>
+								<span class="label label-primary">jQuery</span>
+								<span class="label label-primary">html</span>
+								<span class="label label-primary">css3</span>
+								<span class="label label-primary">gimp</span>
+							</div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -549,6 +684,22 @@
                             <a href="http://fragata-librosnauticos.com"><img src="img/portfolio/fragata.png" class="img-responsive img-centered" alt="fragata libros nauticos"></a>
                             <p></p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <p>Tienda online. Desarrollo completo a medida.</p>
+                            <ul class="list-inline item-details">
+                                <li>Fecha: <strong><a href="http://fragata-librosnauticos.com">2008 - *</a></strong>
+                                </li>
+                                <li>Funciones: <strong><a href="http://fragata-librosnauticos.com">Web Developer</a></strong>
+                                </li>
+                            </ul>
+                            <div class="tags-detail">
+								<span class="label label-primary">php</span>
+								<span class="label label-primary">mysql</span>
+								<span class="label label-primary">jQuery</span>
+								<span class="label label-primary">html</span>
+								<span class="label label-primary">css</span>
+								<span class="label label-primary">API PayPal</span>
+								<span class="label label-primary">gimp</span>
+							</div>
                         </div>
                     </div>
                 </div>
